@@ -1,7 +1,5 @@
 # Heart Condition Prediction
 
-![Heart Condition Prediction](link-to-your-project-image)
-
 ## Overview
 
 The **Heart Condition Prediction** project is a Streamlit application designed to assess the likelihood of heart conditions based on various input parameters. Users provide information such as age, sex, blood pressure, cholesterol levels, and more, and the application delivers a result indicating whether the user is safe or if further medical attention is advisable.
