@@ -1,55 +1,53 @@
-# Heart Disease Prediction
+# Heart Condition Prediction
+
+![Heart Condition Prediction](link-to-your-project-image)
 
 ## Overview
 
-This project focuses on predicting the likelihood of heart disease based on various health indicators. It provides a user-friendly interface to make predictions easily accessible to non-technical users.
+The **Heart Condition Prediction** project is a Streamlit application designed to assess the likelihood of heart conditions based on various input parameters. Users provide information such as age, sex, blood pressure, cholesterol levels, and more, and the application delivers a result indicating whether the user is safe or if further medical attention is advisable.
 
-## Files
-
-### 1. app.py
-
-This is the main application file. To run the heart disease prediction tool, execute this file.
-
-### 2. heart_disease_model_file
-
-This file contains the trained machine learning model for heart disease prediction. It is the core component of the prediction process.
-
-### 3. requirements.txt
-
-This file lists all the dependencies required to run the project. Ensure you have these installed before running the application.
-
-## Usage
+## How to Use
 
 1. **Clone the Repository:**
-    ```bash
-    git clone https://github.com/vijaytakbhate2002/heart-condition-prediction.git
-    cd heart-condition-prediction
-    ```
+   ```bash
+   git clone https://github.com/vijaytakbhate2002/heart-condition-prediction.git
+   cd heart-condition-prediction
+   ```
 
 2. **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Run the Application:**
-    ```bash
-    python app.py
-    ```
+   ```bash
+   streamlit run app.py
+   ```
 
-4. **Access the Prediction Tool:**
-    - Open your web browser and go to [http://localhost:5000](http://localhost:5000)
-    - Follow the on-screen instructions to input health indicators and receive predictions.
+4. **Access the Application:**
+   Open your web browser and go to [http://localhost:8501](http://localhost:8501).
 
-## Important Note
+5. **Input Parameters:**
+   - Age
+   - Sex (0 for female, 1 for male)
+   - Chest Pain Type (cp_num)
+   - Resting Blood Pressure (trestbps)
+   - Cholesterol (chol)
+   - Fasting Blood Sugar (fps_num)
+   - Resting Electrocardiographic Results (restecg_num)
+   - Maximum Heart Rate Achieved (thalach)
+   - Exercise-Induced Angina (exang_num)
+   - Oldpeak
+   - Slope of the Peak Exercise ST Segment (slope_num)
+   - Number of Major Vessels Colored by Fluoroscopy (ca_num)
+   - Thalassemia (thal_num)
 
-This tool is not a substitute for professional medical advice. Consult with a healthcare professional for accurate health assessments.
+6. **Result:**
+   - "You are Safe! :thumbsup: 🤓" if safe
+   - "You need to check up for heart. Don't worry, I am just 97% accurate. 😞" if unsafe.
 
-## Contributing
+## Folder Structure
 
-If you would like to contribute or report issues, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to reach out with any questions or feedback!
+- `app.py`: Main Streamlit application file.
+- `heart_disease_model`: Folder containing the heart disease prediction model.
+- `requirements.txt`: List of project dependencies.
