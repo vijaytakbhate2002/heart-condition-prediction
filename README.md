@@ -1,5 +1,3 @@
-Certainly! Now that I have a better understanding, let's craft a README file for your "Heart Disease Prediction" project.
-
 # Heart Disease Prediction
 
 ## Overview
@@ -55,6 +53,3 @@ If you would like to contribute or report issues, please refer to the [CONTRIBUT
 This project is licensed under the [MIT License](LICENSE).
 
 Feel free to reach out with any questions or feedback!
-
----
-*Note: Replace "your-username" with your actual GitHub username in the repository URL.*
