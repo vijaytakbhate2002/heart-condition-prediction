@@ -24,7 +24,7 @@ This file lists all the dependencies required to run the project. Ensure you hav
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/heart-disease-prediction.git
+    git clone [https://github.com/your-username/heart-disease-prediction.git](https://github.com/vijaytakbhate2002/heart-condition-prediction.git)
     cd heart-disease-prediction
     ```
 
